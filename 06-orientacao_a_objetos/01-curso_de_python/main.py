@@ -1,11 +1,5 @@
-largura = 5
-altura = 3
-profundidade = 3
+largura: float = float(input("Qual a largura do cômodo? "))
+altura: float = float(input("Qual a profundidade do cômodo? "))
+profundidade: float = 2.9
 
-# Declarar as variáveis desta forma, caso queira especificar o tipo
-# largura: float = 5
-# altura: float = 3
-# profundidade: float = 3
-
-print(2 * (largura + profundidade) * altura)
-print(largura * profundidade)
+print("A área das paredes é:", (2 * (largura + profundidade) * altura))
