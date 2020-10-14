@@ -1,2 +1,5 @@
 # Ignorando os arquivos do PyCharm
 .idea/
+
+# Ignorando a pasta de cache
+__pycache__/
